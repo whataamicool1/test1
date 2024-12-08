@@ -1,6 +1,6 @@
 -- // GUI TO LUA \\ --
 
--- // INSTANCES: 749 | SCRIPTS: 139 | MODULES: 0 \\ --
+-- // INSTANCES: 757 | SCRIPTS: 147 | MODULES: 0 \\ --
 
 local UI = {}
 
@@ -12,8 +12,8 @@ UI["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
 UI["2"] = Instance.new("Frame", UI["1"])
 UI["2"]["BorderSizePixel"] = 0
 UI["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2"]["Size"] = UDim2.new(0.26496, 0, 0.46451, 0)
-UI["2"]["Position"] = UDim2.new(0.24113, 0, 0.18633, 0)
+UI["2"]["Size"] = UDim2.new(0.21742, 0, 0.40757, 0)
+UI["2"]["Position"] = UDim2.new(0.23381, 0, 0.24327, 0)
 UI["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 
 -- // StarterGui.ScreenGui.Frame.UICorner \\ --
@@ -244,8 +244,8 @@ UI["16"]["Position"] = UDim2.new(0.5, 0, 0.5, 0)
 UI["17"] = Instance.new("Frame", UI["1"])
 UI["17"]["BorderSizePixel"] = 0
 UI["17"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["17"]["Size"] = UDim2.new(0.08272, 0, 0.46451, 0)
-UI["17"]["Position"] = UDim2.new(0.16074, 0, 0.18633, 0)
+UI["17"]["Size"] = UDim2.new(0.08272, 0, 0.40756, 0)
+UI["17"]["Position"] = UDim2.new(0.16074, 0, 0.24327, 0)
 UI["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["17"]["Name"] = [[put]]
 UI["17"]["BackgroundTransparency"] = 0.25
@@ -259,7 +259,7 @@ UI["19"] = Instance.new("Frame", UI["17"])
 UI["19"]["BorderSizePixel"] = 0
 UI["19"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
 UI["19"]["Size"] = UDim2.new(0.09903, 0, 1, 0)
-UI["19"]["Position"] = UDim2.new(0.91854, 0, 0, 0)
+UI["19"]["Position"] = UDim2.new(0.8238, 0, 0, 0)
 UI["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["19"]["Name"] = [[theframe]]
 
@@ -271,10 +271,10 @@ UI["1a"]["ScaleType"] = Enum.ScaleType.Fit
 UI["1a"]["ImageTransparency"] = 0.76
 UI["1a"]["ImageColor3"] = Color3.fromRGB(137, 137, 137)
 UI["1a"]["Image"] = [[rbxassetid://16255699706]]
-UI["1a"]["Size"] = UDim2.new(-32.88575, 0, 0.96667, 0)
+UI["1a"]["Size"] = UDim2.new(-26.12523, 0, 0.96667, 0)
 UI["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["1a"]["BackgroundTransparency"] = 1
-UI["1a"]["Position"] = UDim2.new(32.38324, 7, 0.02011, 0)
+UI["1a"]["Position"] = UDim2.new(26.2605, 7, 0.01444, 0)
 
 -- // StarterGui.ScreenGui.put.theframe.ImageLabel.snapshot \\ --
 UI["1b"] = Instance.new("ImageLabel", UI["1a"])
@@ -5434,21 +5434,11 @@ UI["2d0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["2d0"]["Text"] = [[Teleportation]]
 UI["2d0"]["Position"] = UDim2.new(0, 0, 0.55903, 0)
 
--- // StarterGui.ScreenGui.put.Buttons.Scripts \\ --
-UI["2d1"] = Instance.new("TextButton", UI["2cf"])
-UI["2d1"]["BorderSizePixel"] = 0
-UI["2d1"]["TextSize"] = 13
-UI["2d1"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
-UI["2d1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2d1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2d1"]["Size"] = UDim2.new(0, 140, 0, 25)
-UI["2d1"]["BackgroundTransparency"] = 1
-UI["2d1"]["Name"] = [[Scripts]]
-UI["2d1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2d1"]["Text"] = [[Scripts]]
-UI["2d1"]["Position"] = UDim2.new(0, 0, 0.74646, 0)
+-- // StarterGui.ScreenGui.put.Buttons.Teleport.LocalScript \\ --
+UI["2d1"] = Instance.new("LocalScript", UI["2d0"])
 
--- // StarterGui.ScreenGui.put.Buttons.Car \\ --
+
+-- // StarterGui.ScreenGui.put.Buttons.Scripts \\ --
 UI["2d2"] = Instance.new("TextButton", UI["2cf"])
 UI["2d2"]["BorderSizePixel"] = 0
 UI["2d2"]["TextSize"] = 13
@@ -5457,26 +5447,16 @@ UI["2d2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 UI["2d2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 UI["2d2"]["Size"] = UDim2.new(0, 140, 0, 25)
 UI["2d2"]["BackgroundTransparency"] = 1
-UI["2d2"]["Name"] = [[Car]]
+UI["2d2"]["Name"] = [[Scripts]]
 UI["2d2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2d2"]["Text"] = [[Car-Mods]]
-UI["2d2"]["Position"] = UDim2.new(0, 0, 0.43408, 0)
+UI["2d2"]["Text"] = [[Scripts]]
+UI["2d2"]["Position"] = UDim2.new(0, 0, 0.74646, 0)
 
--- // StarterGui.ScreenGui.put.Buttons.Home \\ --
-UI["2d3"] = Instance.new("TextButton", UI["2cf"])
-UI["2d3"]["BorderSizePixel"] = 0
-UI["2d3"]["TextSize"] = 13
-UI["2d3"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
-UI["2d3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2d3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2d3"]["Size"] = UDim2.new(0, 140, 0, 29)
-UI["2d3"]["BackgroundTransparency"] = 1
-UI["2d3"]["Name"] = [[Home]]
-UI["2d3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2d3"]["Text"] = [[Home]]
-UI["2d3"]["Position"] = UDim2.new(0, 0, 0.15791, 0)
+-- // StarterGui.ScreenGui.put.Buttons.Scripts.LocalScript \\ --
+UI["2d3"] = Instance.new("LocalScript", UI["2d2"])
 
--- // StarterGui.ScreenGui.put.Buttons.Aim \\ --
+
+-- // StarterGui.ScreenGui.put.Buttons.Car \\ --
 UI["2d4"] = Instance.new("TextButton", UI["2cf"])
 UI["2d4"]["BorderSizePixel"] = 0
 UI["2d4"]["TextSize"] = 13
@@ -5485,44 +5465,34 @@ UI["2d4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 UI["2d4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 UI["2d4"]["Size"] = UDim2.new(0, 140, 0, 25)
 UI["2d4"]["BackgroundTransparency"] = 1
-UI["2d4"]["Name"] = [[Aim]]
+UI["2d4"]["Name"] = [[Car]]
 UI["2d4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2d4"]["Text"] = [[Aim-Related]]
-UI["2d4"]["Position"] = UDim2.new(0, 0, 0.23363, 0)
+UI["2d4"]["Text"] = [[Car-Mods]]
+UI["2d4"]["Position"] = UDim2.new(0, 0, 0.43408, 0)
 
--- // StarterGui.ScreenGui.put.Buttons.Combat \\ --
-UI["2d5"] = Instance.new("TextButton", UI["2cf"])
-UI["2d5"]["BorderSizePixel"] = 0
-UI["2d5"]["TextSize"] = 13
-UI["2d5"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
-UI["2d5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2d5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2d5"]["Size"] = UDim2.new(0, 140, 0, 25)
-UI["2d5"]["BackgroundTransparency"] = 1
-UI["2d5"]["Name"] = [[Combat]]
-UI["2d5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2d5"]["Text"] = [[Combat]]
-UI["2d5"]["Position"] = UDim2.new(0, 0, 0.30392, 0)
-
--- // StarterGui.ScreenGui.put.Buttons.Combat.LocalScript \\ --
-UI["2d6"] = Instance.new("LocalScript", UI["2d5"])
+-- // StarterGui.ScreenGui.put.Buttons.Car.LocalScript \\ --
+UI["2d5"] = Instance.new("LocalScript", UI["2d4"])
 
 
--- // StarterGui.ScreenGui.put.Buttons.AutoFarm \\ --
-UI["2d7"] = Instance.new("TextButton", UI["2cf"])
-UI["2d7"]["BorderSizePixel"] = 0
-UI["2d7"]["TextSize"] = 13
-UI["2d7"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
-UI["2d7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2d7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2d7"]["Size"] = UDim2.new(0, 140, 0, 25)
-UI["2d7"]["BackgroundTransparency"] = 1
-UI["2d7"]["Name"] = [[AutoFarm]]
-UI["2d7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2d7"]["Text"] = [[Auto Farm]]
-UI["2d7"]["Position"] = UDim2.new(0, 0, 0.49395, 0)
+-- // StarterGui.ScreenGui.put.Buttons.Home \\ --
+UI["2d6"] = Instance.new("TextButton", UI["2cf"])
+UI["2d6"]["BorderSizePixel"] = 0
+UI["2d6"]["TextSize"] = 13
+UI["2d6"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
+UI["2d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2d6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2d6"]["Size"] = UDim2.new(0, 140, 0, 29)
+UI["2d6"]["BackgroundTransparency"] = 1
+UI["2d6"]["Name"] = [[Home]]
+UI["2d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2d6"]["Text"] = [[Home]]
+UI["2d6"]["Position"] = UDim2.new(0, 0, 0.15791, 0)
 
--- // StarterGui.ScreenGui.put.Buttons.Player \\ --
+-- // StarterGui.ScreenGui.put.Buttons.Home.LocalScript \\ --
+UI["2d7"] = Instance.new("LocalScript", UI["2d6"])
+
+
+-- // StarterGui.ScreenGui.put.Buttons.Aim \\ --
 UI["2d8"] = Instance.new("TextButton", UI["2cf"])
 UI["2d8"]["BorderSizePixel"] = 0
 UI["2d8"]["TextSize"] = 13
@@ -5531,175 +5501,237 @@ UI["2d8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 UI["2d8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 UI["2d8"]["Size"] = UDim2.new(0, 140, 0, 25)
 UI["2d8"]["BackgroundTransparency"] = 1
-UI["2d8"]["Name"] = [[Player]]
+UI["2d8"]["Name"] = [[Aim]]
 UI["2d8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2d8"]["Text"] = [[LocalPlayer]]
-UI["2d8"]["Position"] = UDim2.new(0, 0, 0.62411, 0)
+UI["2d8"]["Text"] = [[Aim-Related]]
+UI["2d8"]["Position"] = UDim2.new(0, 0, 0.23363, 0)
+
+-- // StarterGui.ScreenGui.put.Buttons.Aim.LocalScript \\ --
+UI["2d9"] = Instance.new("LocalScript", UI["2d8"])
+
+
+-- // StarterGui.ScreenGui.put.Buttons.Combat \\ --
+UI["2da"] = Instance.new("TextButton", UI["2cf"])
+UI["2da"]["BorderSizePixel"] = 0
+UI["2da"]["TextSize"] = 13
+UI["2da"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
+UI["2da"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2da"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2da"]["Size"] = UDim2.new(0, 140, 0, 25)
+UI["2da"]["BackgroundTransparency"] = 1
+UI["2da"]["Name"] = [[Combat]]
+UI["2da"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2da"]["Text"] = [[Combat]]
+UI["2da"]["Position"] = UDim2.new(0, 0, 0.30392, 0)
+
+-- // StarterGui.ScreenGui.put.Buttons.Combat.LocalScript \\ --
+UI["2db"] = Instance.new("LocalScript", UI["2da"])
+
+
+-- // StarterGui.ScreenGui.put.Buttons.AutoFarm \\ --
+UI["2dc"] = Instance.new("TextButton", UI["2cf"])
+UI["2dc"]["BorderSizePixel"] = 0
+UI["2dc"]["TextSize"] = 13
+UI["2dc"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
+UI["2dc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2dc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2dc"]["Size"] = UDim2.new(0, 140, 0, 25)
+UI["2dc"]["BackgroundTransparency"] = 1
+UI["2dc"]["Name"] = [[AutoFarm]]
+UI["2dc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2dc"]["Text"] = [[Auto Farm]]
+UI["2dc"]["Position"] = UDim2.new(0, 0, 0.49395, 0)
+
+-- // StarterGui.ScreenGui.put.Buttons.AutoFarm.LocalScript \\ --
+UI["2dd"] = Instance.new("LocalScript", UI["2dc"])
+
+
+-- // StarterGui.ScreenGui.put.Buttons.Player \\ --
+UI["2de"] = Instance.new("TextButton", UI["2cf"])
+UI["2de"]["BorderSizePixel"] = 0
+UI["2de"]["TextSize"] = 13
+UI["2de"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
+UI["2de"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2de"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2de"]["Size"] = UDim2.new(0, 140, 0, 25)
+UI["2de"]["BackgroundTransparency"] = 1
+UI["2de"]["Name"] = [[Player]]
+UI["2de"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2de"]["Text"] = [[LocalPlayer]]
+UI["2de"]["Position"] = UDim2.new(0, 0, 0.62411, 0)
+
+-- // StarterGui.ScreenGui.put.Buttons.Player.LocalScript \\ --
+UI["2df"] = Instance.new("LocalScript", UI["2de"])
+
 
 -- // StarterGui.ScreenGui.put.Buttons.New \\ --
-UI["2d9"] = Instance.new("TextButton", UI["2cf"])
-UI["2d9"]["BorderSizePixel"] = 0
-UI["2d9"]["TextSize"] = 13
-UI["2d9"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
-UI["2d9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2d9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2d9"]["Size"] = UDim2.new(0, 140, 0, 25)
-UI["2d9"]["BackgroundTransparency"] = 1
-UI["2d9"]["Name"] = [[New]]
-UI["2d9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2d9"]["Text"] = [[WhatsNew!]]
-UI["2d9"]["Position"] = UDim2.new(0, 0, 0.80893, 0)
+UI["2e0"] = Instance.new("TextButton", UI["2cf"])
+UI["2e0"]["BorderSizePixel"] = 0
+UI["2e0"]["TextSize"] = 13
+UI["2e0"]["TextColor3"] = Color3.fromRGB(253, 255, 255)
+UI["2e0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2e0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2e0"]["Size"] = UDim2.new(0, 140, 0, 25)
+UI["2e0"]["BackgroundTransparency"] = 1
+UI["2e0"]["Name"] = [[New]]
+UI["2e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2e0"]["Text"] = [[WhatsNew!]]
+UI["2e0"]["Position"] = UDim2.new(0, 0, 0.80893, 0)
+
+-- // StarterGui.ScreenGui.put.Buttons.New.LocalScript \\ --
+UI["2e1"] = Instance.new("LocalScript", UI["2e0"])
+
 
 -- // StarterGui.ScreenGui.put.TextLabel \\ --
-UI["2da"] = Instance.new("TextLabel", UI["17"])
-UI["2da"]["BorderSizePixel"] = 0
-UI["2da"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2da"]["TextSize"] = 13
-UI["2da"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2da"]["TextColor3"] = Color3.fromRGB(114, 115, 115)
-UI["2da"]["BackgroundTransparency"] = 1
-UI["2da"]["Size"] = UDim2.new(0, 95, 0, 38)
-UI["2da"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2da"]["Text"] = [[Others]]
-UI["2da"]["Position"] = UDim2.new(-0.14418, 0, 0.66562, 0)
-
--- // StarterGui.ScreenGui.put.Images \\ --
-UI["2db"] = Instance.new("Folder", UI["17"])
-UI["2db"]["Name"] = [[Images]]
-
--- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
-UI["2dc"] = Instance.new("ImageLabel", UI["2db"])
-UI["2dc"]["BorderSizePixel"] = 0
-UI["2dc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2dc"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
-UI["2dc"]["Image"] = [[rbxassetid://10709818534]]
-UI["2dc"]["Size"] = UDim2.new(0, 17, 0, 16)
-UI["2dc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2dc"]["BackgroundTransparency"] = 1
-UI["2dc"]["Position"] = UDim2.new(0.06233, 0, 0.24665, 0)
-
--- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
-UI["2dd"] = Instance.new("UIAspectRatioConstraint", UI["2dc"])
-
-
--- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
-UI["2de"] = Instance.new("ImageLabel", UI["2db"])
-UI["2de"]["BorderSizePixel"] = 0
-UI["2de"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2de"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
-UI["2de"]["Image"] = [[rbxassetid://10734929553]]
-UI["2de"]["Size"] = UDim2.new(0, 16, 0, 21)
-UI["2de"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2de"]["BackgroundTransparency"] = 1
-UI["2de"]["Position"] = UDim2.new(0.06233, 0, 0.57105, 0)
-
--- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
-UI["2df"] = Instance.new("UIAspectRatioConstraint", UI["2de"])
-
-
--- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
-UI["2e0"] = Instance.new("ImageLabel", UI["2db"])
-UI["2e0"]["BorderSizePixel"] = 0
-UI["2e0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2e0"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
-UI["2e0"]["Image"] = [[rbxassetid://10734920149]]
-UI["2e0"]["Size"] = UDim2.new(0, 18, 0, 16)
-UI["2e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2e0"]["BackgroundTransparency"] = 1
-UI["2e0"]["Position"] = UDim2.new(0.06233, 0, 0.63539, 0)
-
--- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
-UI["2e1"] = Instance.new("UIAspectRatioConstraint", UI["2e0"])
-
-
--- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
-UI["2e2"] = Instance.new("ImageLabel", UI["2db"])
+UI["2e2"] = Instance.new("TextLabel", UI["17"])
 UI["2e2"]["BorderSizePixel"] = 0
 UI["2e2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2e2"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
-UI["2e2"]["Image"] = [[rbxassetid://10723407389]]
-UI["2e2"]["Size"] = UDim2.new(0, 16, 0, 20)
-UI["2e2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2e2"]["TextSize"] = 13
+UI["2e2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2e2"]["TextColor3"] = Color3.fromRGB(114, 115, 115)
 UI["2e2"]["BackgroundTransparency"] = 1
-UI["2e2"]["Position"] = UDim2.new(0.06233, 0, 0.17426, 0)
+UI["2e2"]["Size"] = UDim2.new(0, 95, 0, 38)
+UI["2e2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2e2"]["Text"] = [[Others]]
+UI["2e2"]["Position"] = UDim2.new(-0.14418, 0, 0.66562, 0)
 
--- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
-UI["2e3"] = Instance.new("UIAspectRatioConstraint", UI["2e2"])
-
+-- // StarterGui.ScreenGui.put.Images \\ --
+UI["2e3"] = Instance.new("Folder", UI["17"])
+UI["2e3"]["Name"] = [[Images]]
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
-UI["2e4"] = Instance.new("ImageLabel", UI["2db"])
+UI["2e4"] = Instance.new("ImageLabel", UI["2e3"])
 UI["2e4"]["BorderSizePixel"] = 0
 UI["2e4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 UI["2e4"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
-UI["2e4"]["Image"] = [[rbxassetid://10734975692]]
-UI["2e4"]["Size"] = UDim2.new(0, 16, 0, 17)
+UI["2e4"]["Image"] = [[rbxassetid://10709818534]]
+UI["2e4"]["Size"] = UDim2.new(0, 17, 0, 16)
 UI["2e4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["2e4"]["BackgroundTransparency"] = 1
-UI["2e4"]["Position"] = UDim2.new(0.06233, 0, 0.31635, 0)
+UI["2e4"]["Position"] = UDim2.new(0.06233, 0, 0.24665, 0)
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
 UI["2e5"] = Instance.new("UIAspectRatioConstraint", UI["2e4"])
 
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
-UI["2e6"] = Instance.new("ImageLabel", UI["2db"])
+UI["2e6"] = Instance.new("ImageLabel", UI["2e3"])
 UI["2e6"]["BorderSizePixel"] = 0
 UI["2e6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 UI["2e6"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
-UI["2e6"]["Image"] = [[rbxassetid://10747364031]]
-UI["2e6"]["Size"] = UDim2.new(0, 16, 0, 29)
+UI["2e6"]["Image"] = [[rbxassetid://10734929553]]
+UI["2e6"]["Size"] = UDim2.new(0, 16, 0, 21)
 UI["2e6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["2e6"]["BackgroundTransparency"] = 1
-UI["2e6"]["Position"] = UDim2.new(0.06233, 0, 0.5067, 0)
+UI["2e6"]["Position"] = UDim2.new(0.06233, 0, 0.57105, 0)
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
 UI["2e7"] = Instance.new("UIAspectRatioConstraint", UI["2e6"])
 
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
-UI["2e8"] = Instance.new("ImageLabel", UI["2db"])
+UI["2e8"] = Instance.new("ImageLabel", UI["2e3"])
 UI["2e8"]["BorderSizePixel"] = 0
 UI["2e8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 UI["2e8"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
-UI["2e8"]["Image"] = [[rbxassetid://12974219084]]
-UI["2e8"]["Size"] = UDim2.new(0, 18, 0, 17)
+UI["2e8"]["Image"] = [[rbxassetid://10734920149]]
+UI["2e8"]["Size"] = UDim2.new(0, 18, 0, 16)
 UI["2e8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["2e8"]["BackgroundTransparency"] = 1
-UI["2e8"]["Position"] = UDim2.new(0.08281, 0, 0.82038, 0)
+UI["2e8"]["Position"] = UDim2.new(0.06233, 0, 0.63539, 0)
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
 UI["2e9"] = Instance.new("UIAspectRatioConstraint", UI["2e8"])
 
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
-UI["2ea"] = Instance.new("ImageLabel", UI["2db"])
+UI["2ea"] = Instance.new("ImageLabel", UI["2e3"])
 UI["2ea"]["BorderSizePixel"] = 0
 UI["2ea"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 UI["2ea"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
-UI["2ea"]["Image"] = [[rbxassetid://10734943448]]
-UI["2ea"]["Size"] = UDim2.new(0, 16, 0, 17)
+UI["2ea"]["Image"] = [[rbxassetid://10723407389]]
+UI["2ea"]["Size"] = UDim2.new(0, 16, 0, 20)
 UI["2ea"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["2ea"]["BackgroundTransparency"] = 1
-UI["2ea"]["Position"] = UDim2.new(0.06233, 0, 0.75871, 0)
+UI["2ea"]["Position"] = UDim2.new(0.06233, 0, 0.17426, 0)
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
 UI["2eb"] = Instance.new("UIAspectRatioConstraint", UI["2ea"])
 
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
-UI["2ec"] = Instance.new("ImageLabel", UI["2db"])
+UI["2ec"] = Instance.new("ImageLabel", UI["2e3"])
 UI["2ec"]["BorderSizePixel"] = 0
 UI["2ec"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 UI["2ec"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
-UI["2ec"]["Image"] = [[rbxassetid://10709789810]]
-UI["2ec"]["Size"] = UDim2.new(0, 16, 0, 50)
+UI["2ec"]["Image"] = [[rbxassetid://10734975692]]
+UI["2ec"]["Size"] = UDim2.new(0, 16, 0, 17)
 UI["2ec"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["2ec"]["BackgroundTransparency"] = 1
-UI["2ec"]["Position"] = UDim2.new(0.06233, 0, 0.44772, 0)
+UI["2ec"]["Position"] = UDim2.new(0.06233, 0, 0.31635, 0)
 
 -- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
 UI["2ed"] = Instance.new("UIAspectRatioConstraint", UI["2ec"])
+
+
+-- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
+UI["2ee"] = Instance.new("ImageLabel", UI["2e3"])
+UI["2ee"]["BorderSizePixel"] = 0
+UI["2ee"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2ee"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
+UI["2ee"]["Image"] = [[rbxassetid://10747364031]]
+UI["2ee"]["Size"] = UDim2.new(0, 16, 0, 29)
+UI["2ee"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2ee"]["BackgroundTransparency"] = 1
+UI["2ee"]["Position"] = UDim2.new(0.06233, 0, 0.5067, 0)
+
+-- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
+UI["2ef"] = Instance.new("UIAspectRatioConstraint", UI["2ee"])
+
+
+-- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
+UI["2f0"] = Instance.new("ImageLabel", UI["2e3"])
+UI["2f0"]["BorderSizePixel"] = 0
+UI["2f0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2f0"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
+UI["2f0"]["Image"] = [[rbxassetid://12974219084]]
+UI["2f0"]["Size"] = UDim2.new(0, 18, 0, 17)
+UI["2f0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2f0"]["BackgroundTransparency"] = 1
+UI["2f0"]["Position"] = UDim2.new(0.08281, 0, 0.82038, 0)
+
+-- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
+UI["2f1"] = Instance.new("UIAspectRatioConstraint", UI["2f0"])
+
+
+-- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
+UI["2f2"] = Instance.new("ImageLabel", UI["2e3"])
+UI["2f2"]["BorderSizePixel"] = 0
+UI["2f2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2f2"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
+UI["2f2"]["Image"] = [[rbxassetid://10734943448]]
+UI["2f2"]["Size"] = UDim2.new(0, 16, 0, 17)
+UI["2f2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2f2"]["BackgroundTransparency"] = 1
+UI["2f2"]["Position"] = UDim2.new(0.06233, 0, 0.75871, 0)
+
+-- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
+UI["2f3"] = Instance.new("UIAspectRatioConstraint", UI["2f2"])
+
+
+-- // StarterGui.ScreenGui.put.Images.ImageLabel \\ --
+UI["2f4"] = Instance.new("ImageLabel", UI["2e3"])
+UI["2f4"]["BorderSizePixel"] = 0
+UI["2f4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2f4"]["ImageColor3"] = Color3.fromRGB(67, 97, 241)
+UI["2f4"]["Image"] = [[rbxassetid://10709789810]]
+UI["2f4"]["Size"] = UDim2.new(0, 16, 0, 50)
+UI["2f4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2f4"]["BackgroundTransparency"] = 1
+UI["2f4"]["Position"] = UDim2.new(0.06233, 0, 0.44772, 0)
+
+-- // StarterGui.ScreenGui.put.Images.ImageLabel.UIAspectRatioConstraint \\ --
+UI["2f5"] = Instance.new("UIAspectRatioConstraint", UI["2f4"])
 
 
 -- // StarterGui.ScreenGui.put.theframe.ImageLabel.snapshot.ImageButton.LocalScript \\ --
@@ -11083,24 +11115,149 @@ local script = UI["2c3"]
 	
 end
 task.spawn(SCRIPT_2c3)
--- // StarterGui.ScreenGui.put.Buttons.Combat.LocalScript \\ --
-local function SCRIPT_2d6()
-local script = UI["2d6"]
+-- // StarterGui.ScreenGui.put.Buttons.Teleport.LocalScript \\ --
+local function SCRIPT_2d1()
+local script = UI["2d1"]
 	local ui = script.Parent
 	local screens = script.Parent.Parent.Parent.Parent.Frame.Screens
 	
 	ui.MouseButton1Click:Connect(function()
-		print("press")
 		for i, screen in pairs(screens:GetChildren()) do
 			if screen:IsA("Frame") then
 				screen.Visible = false
-				print(screen)
 			end
 		end
-		print("show")
+		screens.Teleport.Visible = true
+	end)
+end
+task.spawn(SCRIPT_2d1)
+-- // StarterGui.ScreenGui.put.Buttons.Scripts.LocalScript \\ --
+local function SCRIPT_2d3()
+local script = UI["2d3"]
+	local ui = script.Parent
+	local screens = script.Parent.Parent.Parent.Parent.Frame.Screens
+	
+	ui.MouseButton1Click:Connect(function()
+		for i, screen in pairs(screens:GetChildren()) do
+			if screen:IsA("Frame") then
+				screen.Visible = false
+			end
+		end
+		screens.Scripts.Visible = true
+	end)
+end
+task.spawn(SCRIPT_2d3)
+-- // StarterGui.ScreenGui.put.Buttons.Car.LocalScript \\ --
+local function SCRIPT_2d5()
+local script = UI["2d5"]
+	local ui = script.Parent
+	local screens = script.Parent.Parent.Parent.Parent.Frame.Screens
+	
+	ui.MouseButton1Click:Connect(function()
+		for i, screen in pairs(screens:GetChildren()) do
+			if screen:IsA("Frame") then
+				screen.Visible = false
+			end
+		end
+		screens.Car.Visible = true
+	end)
+end
+task.spawn(SCRIPT_2d5)
+-- // StarterGui.ScreenGui.put.Buttons.Home.LocalScript \\ --
+local function SCRIPT_2d7()
+local script = UI["2d7"]
+	local ui = script.Parent
+	local screens = script.Parent.Parent.Parent.Parent.Frame.Screens
+	
+	ui.MouseButton1Click:Connect(function()
+		for i, screen in pairs(screens:GetChildren()) do
+			if screen:IsA("Frame") then
+				screen.Visible = false
+			end
+		end
+		screens.Home.Visible = true
+	end)
+end
+task.spawn(SCRIPT_2d7)
+-- // StarterGui.ScreenGui.put.Buttons.Aim.LocalScript \\ --
+local function SCRIPT_2d9()
+local script = UI["2d9"]
+	local ui = script.Parent
+	local screens = script.Parent.Parent.Parent.Parent.Frame.Screens
+	
+	ui.MouseButton1Click:Connect(function()
+		for i, screen in pairs(screens:GetChildren()) do
+			if screen:IsA("Frame") then
+				screen.Visible = false
+			end
+		end
+		screens.Aim.Visible = true
+	end)
+end
+task.spawn(SCRIPT_2d9)
+-- // StarterGui.ScreenGui.put.Buttons.Combat.LocalScript \\ --
+local function SCRIPT_2db()
+local script = UI["2db"]
+	local ui = script.Parent
+	local screens = script.Parent.Parent.Parent.Parent.Frame.Screens
+	
+	ui.MouseButton1Click:Connect(function()
+		for i, screen in pairs(screens:GetChildren()) do
+			if screen:IsA("Frame") then
+				screen.Visible = false
+			end
+		end
 		screens.Combat.Visible = true
 	end)
 end
-task.spawn(SCRIPT_2d6)
+task.spawn(SCRIPT_2db)
+-- // StarterGui.ScreenGui.put.Buttons.AutoFarm.LocalScript \\ --
+local function SCRIPT_2dd()
+local script = UI["2dd"]
+	local ui = script.Parent
+	local screens = script.Parent.Parent.Parent.Parent.Frame.Screens
+	
+	ui.MouseButton1Click:Connect(function()
+		for i, screen in pairs(screens:GetChildren()) do
+			if screen:IsA("Frame") then
+				screen.Visible = false
+			end
+		end
+		screens.AutoFarm.Visible = true
+	end)
+end
+task.spawn(SCRIPT_2dd)
+-- // StarterGui.ScreenGui.put.Buttons.Player.LocalScript \\ --
+local function SCRIPT_2df()
+local script = UI["2df"]
+	local ui = script.Parent
+	local screens = script.Parent.Parent.Parent.Parent.Frame.Screens
+	
+	ui.MouseButton1Click:Connect(function()
+		for i, screen in pairs(screens:GetChildren()) do
+			if screen:IsA("Frame") then
+				screen.Visible = false
+			end
+		end
+		screens.Player.Visible = true
+	end)
+end
+task.spawn(SCRIPT_2df)
+-- // StarterGui.ScreenGui.put.Buttons.New.LocalScript \\ --
+local function SCRIPT_2e1()
+local script = UI["2e1"]
+	local ui = script.Parent
+	local screens = script.Parent.Parent.Parent.Parent.Frame.Screens
+	
+	ui.MouseButton1Click:Connect(function()
+		for i, screen in pairs(screens:GetChildren()) do
+			if screen:IsA("Frame") then
+				screen.Visible = false
+			end
+		end
+		screens.New.Visible = true
+	end)
+end
+task.spawn(SCRIPT_2e1)
 
 return UI["1"], require;
